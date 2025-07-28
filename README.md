@@ -69,14 +69,6 @@ python DorkGen.py
 
 ---
 
-👤 Autor
-
-Feito por Gawara0
-Desenvolvido com foco em aprendizado, OSINT e automação para quem curte explorar o submundo da informação.
-
-
----
-
 ⚠️ Aviso legal
 
 > Este projeto é de uso educacional.
