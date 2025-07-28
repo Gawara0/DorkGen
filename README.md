@@ -1,2 +1,100 @@
-# DorkGen
-Ferramenta para facilitar pesquisas via Google Dorking
+# **🕵🏻‍♂️DorkGen**
+
+> "O que você procura já está na rede. Só precisa saber como vasculhar."
+
+## 🔎 Sobre o projeto
+
+Este é um **Gerador de Dorks para Google Hacking**, criado em Python com foco em buscas específicas por arquivos indexados em sites.  
+Ideal pra quem estuda **OSINT**, **pentest**, ou quer explorar documentos públicos com eficiência.
+
+A ferramenta gera dorks com base em:
+- Tipo de arquivo (PDF, TXT, DOC, CSV, etc.)
+- Domínio alvo (opcional)
+- Palavras-chave complementares (opcional)
+
+---
+
+## ⚙️ Funcionalidades
+
+✅ Interface no terminal com visual personalizado  
+✅ Escolha entre buscas por **domínio específico** ou **abrangente**  
+✅ Complemento opcional para refinar a dork (título, nome, tema etc.)  
+✅ Saída pronta para colar direto no Google  
+✅ Suporte a múltiplas extensões de arquivos
+
+---
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/Gawara0/gerador-dorks.git
+cd gerador-dorks 
+```
+2. Instale as dependências:
+```bash
+pip install pyfiglet colorama
+```
+3. Execute o script:
+```bash
+python DorkGen.py
+```
+
+---
+
+🧪 Exemplo de uso
+[]
+Digite o domínio alvo:
+> gov.br
+
+Escolha o tipo de arquivo:
+> PDF
+
+Deseja complementar com algo escrito?
+> Sim
+
+Digite o complemento:
+> "relatório anual"
+
+🔍 Resultado:
+
+site:gov.br filetype:PDF "relatório anual"
+
+
+---
+
+📁 Tipos de arquivos suportados
+
+📄 PDF
+
+📃 TXT
+
+📊 CSV
+
+📈 XLS
+
+📜 LOG
+
+🗜️ ZIP / RAR
+
+📝 DOC / DOCX
+
+🖼️ JPG / PNG
+
+
+
+---
+
+👤 Autor
+
+Feito por Gawara0
+Desenvolvido com foco em aprendizado, OSINT e automação para quem curte explorar o submundo da informação.
+
+
+---
+
+⚠️ Aviso legal
+
+> Este projeto é de uso educacional.
+O uso impróprio de técnicas de dorking pode violar termos de serviço, privacidade e leis locais.
+Você é totalmente responsável pelo que faz com essa ferramenta.
