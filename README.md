@@ -28,8 +28,8 @@ A ferramenta gera dorks com base em:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/Gawara0/gerador-dorks.git
-cd gerador-dorks 
+git clone https://github.com/Gawara0/DorkGen.git
+cd DorkGen.py
 ```
 2. Instale as dependências:
 ```bash
