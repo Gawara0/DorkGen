@@ -3,7 +3,7 @@ import time
 import os
 from colorama import init, Fore, Style
 init()
-
+limpar_tela()
 def complementar():
 	print(Fore.YELLOW + "Deseja complementar com algo escrito?\nExemplos: Nome ou título.")
 	print(Fore.GREEN + "1) Sim")
