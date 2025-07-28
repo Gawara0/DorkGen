@@ -26,15 +26,17 @@ A ferramenta gera dorks com base em:
 
 ## 🚀 Como usar
 
-1. Clone o repositório:
+1. Instale as dependências:
+```bash
+pip install pyfiglet
+pip instaall colorama
+```
+2. Clone o repositório:
 ```bash
 git clone https://github.com/Gawara0/DorkGen.git
-cd DorkGen.py
+cd DorkGen
 ```
-2. Instale as dependências:
-```bash
-pip install pyfiglet colorama
-```
+
 3. Execute o script:
 ```bash
 python DorkGen.py
