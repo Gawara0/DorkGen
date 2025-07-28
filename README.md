@@ -43,23 +43,7 @@ python DorkGen.py
 ---
 
 🧪 Exemplo de uso
-[]
-Digite o domínio alvo:
-> gov.br
-
-Escolha o tipo de arquivo:
-> PDF
-
-Deseja complementar com algo escrito?
-> Sim
-
-Digite o complemento:
-> "relatório anual"
-
-🔍 Resultado:
-
-site:gov.br filetype:PDF "relatório anual"
-
+![Image](https://github.com/user-attachments/assets/3e6dc8f7-3261-444c-8cbf-e9ded6bfb7cf)
 
 ---
 
