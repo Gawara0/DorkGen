@@ -3,7 +3,6 @@ import time
 import os
 from colorama import init, Fore, Style
 init()
-limpar_tela()
 def complementar():
 	print(Fore.YELLOW + "Deseja complementar com algo escrito?\nExemplos: Nome ou título.")
 	print(Fore.GREEN + "1) Sim")
@@ -31,7 +30,7 @@ def limpar_tela():
 def logo():
 	print("Gerador de:")
 	print (Fore.RED + pyfiglet.figlet_format("Dorks"))
-
+limpar_tela()
 logo()
 print(Fore.YELLOW + "Opções:")
 print(Fore.GREEN + "1) Dominio especifico\n2) Abrangente" + Style.RESET_ALL)
